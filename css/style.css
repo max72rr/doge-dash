@@ -1,0 +1,128 @@
+/*Обнуление всех стилей*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.global_container {
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.col {
+    background-image:url(../img/sloy_1_2.png);
+    height:1565px;
+    padding-top: 50px;
+}
+.img_text_header {
+    padding: 50px;
+}
+.img_text {
+    height: 183px;
+    background: rgba(0, 0, 0, 0.38);
+}
+.img_center {
+    display: block;
+    margin: 113px auto 0;
+}
+.display_footer {
+    display: block;
+    left: 47px;
+    margin: 149px auto 0;
+    position: relative
+}
+.display_footer_1 {
+    position: absolute;
+    top: 1334px;
+    max-width: -webkit-fill-available;
+}
+.col_center {
+    background: url(../img/sloy_2_6.png) no-repeat;
+    top: 260px;
+    height: 1800px;
+    position:absolute;
+    width: -webkit-fill-available;
+    
+}
+.col_center_img {
+    background: url(../img/sloy_3_7.png) no-repeat;
+    min-height: 1802px;
+    padding: 1202px 33px 17px 42px;
+    position: relative;
+}
+.fon_col_1 {
+    padding-top: 437px;
+}
+.col__1 {
+    display: grid;
+    float: left;
+}
+.col__2 {
+    float: right;
+    display: grid;
+}
+.img_setting {
+    text-align: center;
+    padding-top: 50px;
+}
+.img_setting > img {
+    width: 260px;
+    margin-left: 24px;
+}
+.img_setting > a > img {
+    width: 260px;
+    margin-left: 24px;
+}
+.img_setting_a {
+    width: 260px;
+    margin-left: 24px;
+    display: contents;
+}
+.img_setting_a > a > img {
+    width: 260px;
+    margin-left: 24px;
+}
+.img_setting_a > img {
+    width: 260px;
+    margin-left: 24px;
+}
+
+a[ id= "part1" ]:target ~ #part1 article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+html {
+    scroll-behavior: smooth;
+}
